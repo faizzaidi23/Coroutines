@@ -1,5 +1,7 @@
 package org.example
 
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.launch
 import kotlin.concurrent.thread
 
 fun main(){
@@ -12,7 +14,6 @@ fun main(){
         Thread.sleep(1000) //Pretending to do some work on the background thread like the file upload
         println("Fake work ends:${Thread.currentThread().name}")
     }
-
 
     println("Main programs ends:${Thread.currentThread().name}")
 }
