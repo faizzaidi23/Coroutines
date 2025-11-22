@@ -7,10 +7,14 @@ version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
+    jcenter()
 }
 
 dependencies {
     testImplementation(kotlin("test"))
+    implementation(
+        "org.jetbrains.kotlinx:kotlinx-coroutines:1.3.9"
+    )
 }
 
 tasks.test {
