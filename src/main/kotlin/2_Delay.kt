@@ -15,6 +15,7 @@ fun main(){
 
     runBlocking { //creates a coroutine that blocks the current thread here it will be blocking the main thread but if it was inside the GlobalScope then it will be blocking the background thread on which that particular coroutine will be running
         delay(2000)
+        println("This is running on:${Thread.currentThread().name}")
     }
 
     println("Main program ends:${Thread.currentThread().name}")
