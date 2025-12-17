@@ -13,7 +13,7 @@ fun main(){
         println("Fake work finished:${Thread.currentThread().name}") //Either T1 or some other thread
     }
 
-    runBlocking { //creates a coroutine that blocks the current thread
+    runBlocking { //creates a coroutine that blocks the current thread here it will be blocking the main thread but if it was inside the GlobalScope then it will be blocking the background thread on which that particular coroutine will be running
         delay(2000)
     }
 
