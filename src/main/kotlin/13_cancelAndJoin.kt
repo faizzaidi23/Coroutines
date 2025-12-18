@@ -12,8 +12,8 @@ fun main()= runBlocking {
         println("This is the child coroutine and this runs on:${Thread.currentThread().name}")
         for(i in 0..100){
             println("$i.")
-            delay(50)
         }
+        delay(50)
     }
     delay(200)
     job.cancelAndJoin()
