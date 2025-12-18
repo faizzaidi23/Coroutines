@@ -18,3 +18,7 @@ fun main()= runBlocking {
     println("Main program ends:${Thread.currentThread().name}")
 }
 
+suspend fun myOwnSuspendingFunction(){
+    delay(1000)
+}
+

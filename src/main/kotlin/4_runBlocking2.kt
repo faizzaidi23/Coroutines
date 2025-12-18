@@ -16,5 +16,4 @@ fun main()=runBlocking{  //Executes on the main thread
         }
         delay(2000) //main thread wait for the coroutine to finish---if this delay would not have been used that the coroutien inside the GlobalScope will nto get the time since that is running on the background thread which is not the child of the main thread that is why this delay is used here
         println("Main Program ends:${Thread.currentThread().name}") //main thread
-
 }
