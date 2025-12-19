@@ -12,7 +12,7 @@ fun main()= runBlocking {
     val job: Job =launch{
         for(i in 0..500){
             println("$i.")
-            //The yield also makes the coroutine cooperative
+            //The yield also makes the coroutine cooperative{
             yield() //Suspends this coroutine and immediately schedules it for further execution.
 
         }
