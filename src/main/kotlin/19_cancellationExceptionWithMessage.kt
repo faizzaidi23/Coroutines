@@ -1,6 +1,5 @@
 package org.example
 
-
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.NonCancellable
@@ -8,12 +7,6 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withContext
-
-/*
-withContext switches the coroutine to a new context
-NonCancellable is a special job
-The job ignores the cancellation
-*/
 
 fun main()= runBlocking {
     println("This is the main function running on:${Thread.currentThread().name}")
@@ -34,6 +27,6 @@ fun main()= runBlocking {
         }
     }
     delay(50)
-    job.cancel()
+    job.cancel(CancellationException("My own message"))
     println("Ending the main function and this is ending on the:${Thread.currentThread().name}")
 }
