@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eefe84bd-ce0d-4173-b70b-48bc00d8dd47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/16_HandlingExceptions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/17_FinallyWithoutWithContext.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +65,8 @@
     "Gradle.KotlinCoroutines [:org.example._13_cancelAndJoinKt.main()].executor": "Run",
     "Gradle.KotlinCoroutines [:org.example._14_yieldKt.main()].executor": "Run",
     "Gradle.KotlinCoroutines [:org.example._15_isActiveKt.main()].executor": "Run",
+    "Gradle.KotlinCoroutines [:org.example._16_HandlingExceptionsKt.main()].executor": "Run",
+    "Gradle.KotlinCoroutines [:org.example._17_FinallyWithoutWithContextKt.main()].executor": "Run",
     "Gradle.KotlinCoroutines [:org.example._1_FirstCoroutineKt.main()].executor": "Run",
     "Gradle.KotlinCoroutines [:org.example._2_DelayKt.main()].executor": "Run",
     "Gradle.KotlinCoroutines [:org.example._4_runBlocking2Kt.main()].executor": "Run",
@@ -95,14 +98,7 @@
       <recent name="org.example.CoroutineBuilders" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin._16_HandlingExceptionsKt">
-    <configuration name="_12_CancellingACoroutineWithDelayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example._12_CancellingACoroutineWithDelayKt" />
-      <module name="KotlinCoroutines.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin._17_FinallyWithoutWithContextKt">
     <configuration name="_13_cancelAndJoinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example._13_cancelAndJoinKt" />
       <module name="KotlinCoroutines.main" />
@@ -131,13 +127,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_17_FinallyWithoutWithContextKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example._17_FinallyWithoutWithContextKt" />
+      <module name="KotlinCoroutines.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._17_FinallyWithoutWithContextKt" />
         <item itemvalue="Kotlin._16_HandlingExceptionsKt" />
         <item itemvalue="Kotlin._15_isActiveKt" />
         <item itemvalue="Kotlin._14_yieldKt" />
         <item itemvalue="Kotlin._13_cancelAndJoinKt" />
-        <item itemvalue="Kotlin._12_CancellingACoroutineWithDelayKt" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +167,7 @@
       <workItem from="1766029297805" duration="469000" />
       <workItem from="1766029788620" duration="1699000" />
       <workItem from="1766031499926" duration="8109000" />
-      <workItem from="1766116192689" duration="2638000" />
+      <workItem from="1766116192689" duration="5128000" />
     </task>
     <servers />
   </component>
