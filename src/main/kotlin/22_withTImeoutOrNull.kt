@@ -4,6 +4,17 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withTimeoutOrNull
 
+
+/*
+withTimeoutOrNull runs a coroutine block for a given time and returns the result if it finishes in time, otherwise it returns null instead of throwing an exception
+
+it works like safe timeout without exception
+
+
+if the block finished in time then it will be returning a value
+and if not then null will be returned
+*/
+
 fun main()= runBlocking {
     println("Starting the main function and this runs on :${Thread.currentThread().name}")
 

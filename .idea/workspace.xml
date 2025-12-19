@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eefe84bd-ce0d-4173-b70b-48bc00d8dd47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/22_withTImeOrNull.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/23_withTimeoutOrNullLambdaExpression.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/14_yield.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/14_yield.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/22_withTImeoutOrNull.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/22_withTImeoutOrNull.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,70 +56,58 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Gradle.Build KotlinCoroutines.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.KotlinCoroutines [:org.example.CoroutineBuilders._21_withTimeoutWithTryCatchBlockKt.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.KotlinCoroutines [:org.example.MainKt.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.KotlinCoroutines [:org.example._10_cancellingACoroutineKt.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.KotlinCoroutines [:org.example._12_CancellingACoroutineWithDelayKt.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.KotlinCoroutines [:org.example._13_cancelAndJoinKt.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.KotlinCoroutines [:org.example._14_yieldKt.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.KotlinCoroutines [:org.example._15_isActiveKt.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.KotlinCoroutines [:org.example._16_HandlingExceptionsKt.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.KotlinCoroutines [:org.example._17_FinallyWithoutWithContextKt.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.KotlinCoroutines [:org.example._19_cancellationExceptionWithMessageKt.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.KotlinCoroutines [:org.example._1_FirstCoroutineKt.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.KotlinCoroutines [:org.example._20_kotlinTimeoutsKt.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.KotlinCoroutines [:org.example._21_withTimeoutWithTryCatchBlockKt.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.KotlinCoroutines [:org.example._2_DelayKt.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.KotlinCoroutines [:org.example._4_runBlocking2Kt.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SimpleTest.myFirstTest.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/faizz/KotlinCoroutines/src/main/kotlin/Main.kt&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.Build KotlinCoroutines.executor": "Run",
+    "Gradle.KotlinCoroutines [:_23_withTimeoutOrNullLambdaExpressionKt.main()].executor": "Run",
+    "Gradle.KotlinCoroutines [:org.example.CoroutineBuilders._21_withTimeoutWithTryCatchBlockKt.main()].executor": "Run",
+    "Gradle.KotlinCoroutines [:org.example.MainKt.main()].executor": "Run",
+    "Gradle.KotlinCoroutines [:org.example._10_cancellingACoroutineKt.main()].executor": "Run",
+    "Gradle.KotlinCoroutines [:org.example._12_CancellingACoroutineWithDelayKt.main()].executor": "Run",
+    "Gradle.KotlinCoroutines [:org.example._13_cancelAndJoinKt.main()].executor": "Run",
+    "Gradle.KotlinCoroutines [:org.example._14_yieldKt.main()].executor": "Run",
+    "Gradle.KotlinCoroutines [:org.example._15_isActiveKt.main()].executor": "Run",
+    "Gradle.KotlinCoroutines [:org.example._16_HandlingExceptionsKt.main()].executor": "Run",
+    "Gradle.KotlinCoroutines [:org.example._17_FinallyWithoutWithContextKt.main()].executor": "Run",
+    "Gradle.KotlinCoroutines [:org.example._19_cancellationExceptionWithMessageKt.main()].executor": "Run",
+    "Gradle.KotlinCoroutines [:org.example._1_FirstCoroutineKt.main()].executor": "Run",
+    "Gradle.KotlinCoroutines [:org.example._20_kotlinTimeoutsKt.main()].executor": "Run",
+    "Gradle.KotlinCoroutines [:org.example._21_withTimeoutWithTryCatchBlockKt.main()].executor": "Run",
+    "Gradle.KotlinCoroutines [:org.example._2_DelayKt.main()].executor": "Run",
+    "Gradle.KotlinCoroutines [:org.example._4_runBlocking2Kt.main()].executor": "Run",
+    "Gradle.KotlinCoroutines [:org.example.withTimeoutOrNUll._22_withTImeoutOrNullKt.main()].executor": "Run",
+    "Gradle.SimpleTest.myFirstTest.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/faizz/KotlinCoroutines/src/main/kotlin/Main.kt",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="K2MoveDeclarationsDialog.RECENT_PACKAGE_KEY">
       <recent name="org.example" />
       <recent name="org.example.CoroutineBuilders" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin._14_yieldKt">
+  <component name="RunManager" selected="Kotlin._23_withTimeoutOrNullLambdaExpressionKt">
     <configuration name="_14_yieldKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example._14_yieldKt" />
-      <module name="KotlinCoroutines.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_17_FinallyWithoutWithContextKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example._17_FinallyWithoutWithContextKt" />
-      <module name="KotlinCoroutines.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_19_cancellationExceptionWithMessageKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example._19_cancellationExceptionWithMessageKt" />
       <module name="KotlinCoroutines.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,13 +127,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_22_withTImeoutOrNullKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.withTimeoutOrNUll._22_withTImeoutOrNullKt" />
+      <module name="KotlinCoroutines.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_23_withTimeoutOrNullLambdaExpressionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_23_withTimeoutOrNullLambdaExpressionKt" />
+      <module name="KotlinCoroutines.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._23_withTimeoutOrNullLambdaExpressionKt" />
+        <item itemvalue="Kotlin._22_withTImeoutOrNullKt" />
         <item itemvalue="Kotlin._14_yieldKt" />
         <item itemvalue="Kotlin._21_withTimeoutWithTryCatchBlockKt" />
         <item itemvalue="Kotlin._20_kotlinTimeoutsKt" />
-        <item itemvalue="Kotlin._19_cancellationExceptionWithMessageKt" />
-        <item itemvalue="Kotlin._17_FinallyWithoutWithContextKt" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +175,7 @@
       <workItem from="1766029788620" duration="1699000" />
       <workItem from="1766031499926" duration="8109000" />
       <workItem from="1766116192689" duration="10231000" />
-      <workItem from="1766136748284" duration="64000" />
+      <workItem from="1766136748284" duration="1384000" />
     </task>
     <servers />
   </component>
