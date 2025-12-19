@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eefe84bd-ce0d-4173-b70b-48bc00d8dd47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/19_cancellationExceptionWithMessage.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/18_FinallyWithContext.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/18_FinallyWithContext.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/20_kotlinTimeouts.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,14 +98,7 @@
       <recent name="org.example.CoroutineBuilders" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin._19_cancellationExceptionWithMessageKt">
-    <configuration name="_14_yieldKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example._14_yieldKt" />
-      <module name="KotlinCoroutines.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin._20_kotlinTimeoutsKt">
     <configuration name="_15_isActiveKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example._15_isActiveKt" />
       <module name="KotlinCoroutines.main" />
@@ -136,13 +127,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_20_kotlinTimeoutsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example._20_kotlinTimeoutsKt" />
+      <module name="KotlinCoroutines.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._20_kotlinTimeoutsKt" />
         <item itemvalue="Kotlin._19_cancellationExceptionWithMessageKt" />
         <item itemvalue="Kotlin._17_FinallyWithoutWithContextKt" />
         <item itemvalue="Kotlin._16_HandlingExceptionsKt" />
         <item itemvalue="Kotlin._15_isActiveKt" />
-        <item itemvalue="Kotlin._14_yieldKt" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +167,7 @@
       <workItem from="1766029297805" duration="469000" />
       <workItem from="1766029788620" duration="1699000" />
       <workItem from="1766031499926" duration="8109000" />
-      <workItem from="1766116192689" duration="7614000" />
+      <workItem from="1766116192689" duration="8687000" />
     </task>
     <servers />
   </component>
