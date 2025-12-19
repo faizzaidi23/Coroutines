@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eefe84bd-ce0d-4173-b70b-48bc00d8dd47" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copilot.data.migration.ask.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/CoroutineBuilders/11_RunBlockingCoroutineBuilder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/CoroutineBuilders/11_RunBlockingCoroutineBuilder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/15_isActive.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/15_isActive.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +18,27 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="KotlinCoroutines" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -37,7 +46,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="C:\Users\faizz\.gradle\wrapper\dists\gradle-8.14-bin\38aieal9i53h9rfe7vjup95b9\gradle-8.14" javaHome="C:\Users\faizz\.jdks\temurin-17.0.16" gradleVersion="8.14" />
+  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="C:\Users\faizz\.gradle\wrapper\dists\gradle-8.14-bin\38aieal9i53h9rfe7vjup95b9\gradle-8.14" javaHome="C:\Program Files\Java\jdk-17" gradleVersion="8.14" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -51,9 +60,15 @@
     "Downloaded.Files.Path.Enabled": "false",
     "Gradle.Build KotlinCoroutines.executor": "Run",
     "Gradle.KotlinCoroutines [:org.example.MainKt.main()].executor": "Run",
+    "Gradle.KotlinCoroutines [:org.example._10_cancellingACoroutineKt.main()].executor": "Run",
+    "Gradle.KotlinCoroutines [:org.example._12_CancellingACoroutineWithDelayKt.main()].executor": "Run",
+    "Gradle.KotlinCoroutines [:org.example._13_cancelAndJoinKt.main()].executor": "Run",
+    "Gradle.KotlinCoroutines [:org.example._14_yieldKt.main()].executor": "Run",
+    "Gradle.KotlinCoroutines [:org.example._15_isActiveKt.main()].executor": "Run",
     "Gradle.KotlinCoroutines [:org.example._1_FirstCoroutineKt.main()].executor": "Run",
     "Gradle.KotlinCoroutines [:org.example._2_DelayKt.main()].executor": "Run",
     "Gradle.KotlinCoroutines [:org.example._4_runBlocking2Kt.main()].executor": "Run",
+    "Gradle.SimpleTest.myFirstTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -69,33 +84,49 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/faizz/KotlinCoroutines/src/main/kotlin/Main.kt",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin._4_runBlocking2Kt">
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.MainKt" />
+  <component name="RecentsManager">
+    <key name="K2MoveDeclarationsDialog.RECENT_PACKAGE_KEY">
+      <recent name="org.example" />
+      <recent name="org.example.CoroutineBuilders" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin._15_isActiveKt">
+    <configuration name="_11_cancellingACoroutineKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example._11_cancellingACoroutineKt" />
       <module name="KotlinCoroutines.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_1_FirstCoroutineKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example._1_FirstCoroutineKt" />
+    <configuration name="_12_CancellingACoroutineWithDelayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example._12_CancellingACoroutineWithDelayKt" />
       <module name="KotlinCoroutines.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_2_DelayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example._2_DelayKt" />
+    <configuration name="_13_cancelAndJoinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example._13_cancelAndJoinKt" />
       <module name="KotlinCoroutines.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_4_runBlocking2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example._4_runBlocking2Kt" />
+    <configuration name="_14_yieldKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example._14_yieldKt" />
+      <module name="KotlinCoroutines.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_15_isActiveKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example._15_isActiveKt" />
       <module name="KotlinCoroutines.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -103,10 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin._4_runBlocking2Kt" />
-        <item itemvalue="Kotlin._2_DelayKt" />
-        <item itemvalue="Kotlin._1_FirstCoroutineKt" />
-        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Kotlin._15_isActiveKt" />
+        <item itemvalue="Kotlin._14_yieldKt" />
+        <item itemvalue="Kotlin._13_cancelAndJoinKt" />
+        <item itemvalue="Kotlin._12_CancellingACoroutineWithDelayKt" />
+        <item itemvalue="Kotlin._11_cancellingACoroutineKt" />
       </list>
     </recent_temporary>
   </component>
@@ -132,6 +164,8 @@
       <workItem from="1765958020832" duration="15184000" />
       <workItem from="1766029297805" duration="469000" />
       <workItem from="1766029788620" duration="1699000" />
+      <workItem from="1766031499926" duration="8109000" />
+      <workItem from="1766116192689" duration="1865000" />
     </task>
     <servers />
   </component>
@@ -144,7 +178,7 @@
         <line-breakpoint enabled="true" type="kotlin-function">
           <url>file://$PROJECT_DIR$/src/main/kotlin/2_Delay.kt</url>
           <line>7</line>
-          <properties>
+          <properties method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
