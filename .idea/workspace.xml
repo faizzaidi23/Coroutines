@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eefe84bd-ce0d-4173-b70b-48bc00d8dd47" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/27_CoroutineScope.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/26_lazyExecution.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/26_lazyExecution.kt" afterDir="false" />
     </list>
@@ -62,6 +63,7 @@
     "Gradle.KotlinCoroutines [:_23_withTimeoutOrNullLambdaExpressionKt.main()].executor": "Run",
     "Gradle.KotlinCoroutines [:_24_sequentialExecutionKt.main()].executor": "Run",
     "Gradle.KotlinCoroutines [:_25_concurrentExecutionKt.main()].executor": "Run",
+    "Gradle.KotlinCoroutines [:_26_lazyExecutionKt.main()].executor": "Run",
     "Gradle.KotlinCoroutines [:org.example.CoroutineBuilders._21_withTimeoutWithTryCatchBlockKt.main()].executor": "Run",
     "Gradle.KotlinCoroutines [:org.example.MainKt.main()].executor": "Run",
     "Gradle.KotlinCoroutines [:org.example._10_cancellingACoroutineKt.main()].executor": "Run",
@@ -78,6 +80,7 @@
     "Gradle.KotlinCoroutines [:org.example._2_DelayKt.main()].executor": "Run",
     "Gradle.KotlinCoroutines [:org.example._4_runBlocking2Kt.main()].executor": "Run",
     "Gradle.KotlinCoroutines [:org.example.withTimeoutOrNUll._22_withTImeoutOrNullKt.main()].executor": "Run",
+    "Gradle.KotlinCoroutines [:org.example3._27_CoroutineScopeKt.main()].executor": "Run",
     "Gradle.SimpleTest.myFirstTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Repository.Attach.Annotations": "false",
@@ -106,21 +109,7 @@
       <recent name="org.example.CoroutineBuilders" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin._25_concurrentExecutionKt">
-    <configuration name="_14_yieldKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example._14_yieldKt" />
-      <module name="KotlinCoroutines.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_22_withTImeoutOrNullKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.withTimeoutOrNUll._22_withTImeoutOrNullKt" />
-      <module name="KotlinCoroutines.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin._27_CoroutineScopeKt">
     <configuration name="_23_withTimeoutOrNullLambdaExpressionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_23_withTimeoutOrNullLambdaExpressionKt" />
       <module name="KotlinCoroutines.main" />
@@ -142,13 +131,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_26_lazyExecutionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_26_lazyExecutionKt" />
+      <module name="KotlinCoroutines.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_27_CoroutineScopeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example3._27_CoroutineScopeKt" />
+      <module name="KotlinCoroutines.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._27_CoroutineScopeKt" />
+        <item itemvalue="Kotlin._26_lazyExecutionKt" />
         <item itemvalue="Kotlin._25_concurrentExecutionKt" />
         <item itemvalue="Kotlin._24_sequentialExecutionKt" />
         <item itemvalue="Kotlin._23_withTimeoutOrNullLambdaExpressionKt" />
-        <item itemvalue="Kotlin._22_withTImeoutOrNullKt" />
-        <item itemvalue="Kotlin._14_yieldKt" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +179,7 @@
       <workItem from="1766029788620" duration="1699000" />
       <workItem from="1766031499926" duration="8109000" />
       <workItem from="1766116192689" duration="10231000" />
-      <workItem from="1766136748284" duration="9968000" />
+      <workItem from="1766136748284" duration="14754000" />
     </task>
     <servers />
   </component>
@@ -194,6 +197,23 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/27_CoroutineScope.kt</url>
+          <line>46</line>
+          <properties method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/27_CoroutineScope.kt</url>
+          <line>46</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

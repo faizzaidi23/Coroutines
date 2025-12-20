@@ -8,8 +8,10 @@ import kotlinx.coroutines.runBlocking
 
 
 /*
-Here since we are using the Coroutine.Lazy because of this these two suspending functions will be executed only when they are being used somewhere in the application
-The execution will not take place for just taking place
+A coroutine started with CoroutineStart.LAZY is created but NOT scheduled for the execution
+
+Nothing will be happening because lazy coroutine do nothing unless explicitly started
+
 */
 fun main()= runBlocking {
     println("Main program starts and this runs on:${Thread.currentThread().name}")
@@ -17,7 +19,7 @@ fun main()= runBlocking {
     val msgOne: Deferred<String> = async(start= CoroutineStart.LAZY){msgOne()}
     val msgTwo: Deferred<String> = async(start= CoroutineStart.LAZY){secondMsg()}
 
-    //println("The whole message is:${msgOne.await()+msgTwo.await()}")
+    println("The whole message is:${msgOne.await()+msgTwo.await()}")
 
     println("Main function ends on:${Thread.currentThread().name}")
 }
