@@ -16,7 +16,12 @@ and then the delay() is encountered on the second suspending function then the m
 and after 1 second when the delay of both the suspending functions is completed then it will be doing to the returning
 
 
-*******The main thing here is we do not know which coroutine will get the coroutine after the resuming of the coroutine
+*******The main thing here is we do not know which coroutine will get the main thread  after the resuming of the coroutine
+
+
+
+we can also achieve concurrency using the launch coroutine builder but since that does not return any value we won't be able to use those values to calculate the timing
+because of that we are using async here rather than the launch coroutine builder
 
 */
 fun main()=runBlocking{
