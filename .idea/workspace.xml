@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eefe84bd-ce0d-4173-b70b-48bc00d8dd47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/28_ CoroutineScope.2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/29_CoroutineContext.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,6 +81,7 @@
     "Gradle.KotlinCoroutines [:org.example._4_runBlocking2Kt.main()].executor": "Run",
     "Gradle.KotlinCoroutines [:org.example.withTimeoutOrNUll._22_withTImeoutOrNullKt.main()].executor": "Run",
     "Gradle.KotlinCoroutines [:org.example3._27_CoroutineScopeKt.main()].executor": "Run",
+    "Gradle.KotlinCoroutines [:org.example5._29_CoroutineContextKt.main()].executor": "Run",
     "Gradle.SimpleTest.myFirstTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Repository.Attach.Annotations": "false",
@@ -109,14 +110,7 @@
       <recent name="org.example.CoroutineBuilders" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin._28__CoroutineScope_2Kt">
-    <configuration name="_24_sequentialExecutionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_24_sequentialExecutionKt" />
-      <module name="KotlinCoroutines.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin._29_CoroutineContextKt">
     <configuration name="_25_concurrentExecutionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_25_concurrentExecutionKt" />
       <module name="KotlinCoroutines.main" />
@@ -145,13 +139,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_29_CoroutineContextKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example5._29_CoroutineContextKt" />
+      <module name="KotlinCoroutines.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._29_CoroutineContextKt" />
         <item itemvalue="Kotlin._28__CoroutineScope_2Kt" />
         <item itemvalue="Kotlin._27_CoroutineScopeKt" />
         <item itemvalue="Kotlin._26_lazyExecutionKt" />
         <item itemvalue="Kotlin._25_concurrentExecutionKt" />
-        <item itemvalue="Kotlin._24_sequentialExecutionKt" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +181,7 @@
       <workItem from="1766031499926" duration="8109000" />
       <workItem from="1766116192689" duration="10231000" />
       <workItem from="1766136748284" duration="16363000" />
-      <workItem from="1766226332070" duration="591000" />
+      <workItem from="1766226332070" duration="3980000" />
     </task>
     <servers />
   </component>
