@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eefe84bd-ce0d-4173-b70b-48bc00d8dd47" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/25_concurrentExecution.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/25_concurrentExecution.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/26_lazyExecution.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/26_lazyExecution.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +176,7 @@
       <workItem from="1766029788620" duration="1699000" />
       <workItem from="1766031499926" duration="8109000" />
       <workItem from="1766116192689" duration="10231000" />
-      <workItem from="1766136748284" duration="7127000" />
+      <workItem from="1766136748284" duration="9968000" />
     </task>
     <servers />
   </component>
