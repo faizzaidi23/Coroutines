@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eefe84bd-ce0d-4173-b70b-48bc00d8dd47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/23_withTimeoutOrNullLambdaExpression.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/24_sequentialExecution.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/22_withTImeoutOrNull.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/22_withTImeoutOrNull.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +60,7 @@
     "Downloaded.Files.Path.Enabled": "false",
     "Gradle.Build KotlinCoroutines.executor": "Run",
     "Gradle.KotlinCoroutines [:_23_withTimeoutOrNullLambdaExpressionKt.main()].executor": "Run",
+    "Gradle.KotlinCoroutines [:_24_sequentialExecutionKt.main()].executor": "Run",
     "Gradle.KotlinCoroutines [:org.example.CoroutineBuilders._21_withTimeoutWithTryCatchBlockKt.main()].executor": "Run",
     "Gradle.KotlinCoroutines [:org.example.MainKt.main()].executor": "Run",
     "Gradle.KotlinCoroutines [:org.example._10_cancellingACoroutineKt.main()].executor": "Run",
@@ -105,16 +105,9 @@
       <recent name="org.example.CoroutineBuilders" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin._23_withTimeoutOrNullLambdaExpressionKt">
+  <component name="RunManager" selected="Kotlin._24_sequentialExecutionKt">
     <configuration name="_14_yieldKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example._14_yieldKt" />
-      <module name="KotlinCoroutines.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_20_kotlinTimeoutsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example._20_kotlinTimeoutsKt" />
       <module name="KotlinCoroutines.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,13 +134,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_24_sequentialExecutionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_24_sequentialExecutionKt" />
+      <module name="KotlinCoroutines.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._24_sequentialExecutionKt" />
         <item itemvalue="Kotlin._23_withTimeoutOrNullLambdaExpressionKt" />
         <item itemvalue="Kotlin._22_withTImeoutOrNullKt" />
         <item itemvalue="Kotlin._14_yieldKt" />
         <item itemvalue="Kotlin._21_withTimeoutWithTryCatchBlockKt" />
-        <item itemvalue="Kotlin._20_kotlinTimeoutsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +175,7 @@
       <workItem from="1766029788620" duration="1699000" />
       <workItem from="1766031499926" duration="8109000" />
       <workItem from="1766116192689" duration="10231000" />
-      <workItem from="1766136748284" duration="1384000" />
+      <workItem from="1766136748284" duration="4750000" />
     </task>
     <servers />
   </component>
